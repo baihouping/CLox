@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246DCB352A0506A3005853FA /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 246DCB342A0506A3005853FA /* compiler.c */; };
+		246DCB382A0507BA005853FA /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 246DCB372A0507BA005853FA /* scanner.c */; };
 		24BEB5072A0360450010EC5A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 24BEB5062A0360450010EC5A /* main.c */; };
 		24BEB5122A038BD40010EC5A /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 24BEB5112A038BD40010EC5A /* chunk.c */; };
 		24BEB5152A0392190010EC5A /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 24BEB5142A0392190010EC5A /* memory.c */; };
@@ -28,6 +30,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		246DCB332A0506A3005853FA /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
+		246DCB342A0506A3005853FA /* compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compiler.c; sourceTree = "<group>"; };
+		246DCB362A0507BA005853FA /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
+		246DCB372A0507BA005853FA /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		24BEB5032A0360450010EC5A /* CLox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLox; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BEB5062A0360450010EC5A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		24BEB50D2A0364B60010EC5A /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				24BEB51A2A03A8F00010EC5A /* value.c */,
 				24BEB51C2A03C0D10010EC5A /* vm.h */,
 				24BEB51D2A03C0D10010EC5A /* vm.c */,
+				246DCB332A0506A3005853FA /* compiler.h */,
+				246DCB342A0506A3005853FA /* compiler.c */,
+				246DCB362A0507BA005853FA /* scanner.h */,
+				246DCB372A0507BA005853FA /* scanner.c */,
 			);
 			path = CLox;
 			sourceTree = "<group>";
@@ -150,6 +160,8 @@
 				24BEB5072A0360450010EC5A /* main.c in Sources */,
 				24BEB5152A0392190010EC5A /* memory.c in Sources */,
 				24BEB5122A038BD40010EC5A /* chunk.c in Sources */,
+				246DCB382A0507BA005853FA /* scanner.c in Sources */,
+				246DCB352A0506A3005853FA /* compiler.c in Sources */,
 				24BEB51E2A03C0D10010EC5A /* vm.c in Sources */,
 				24BEB5182A039BC30010EC5A /* debug.c in Sources */,
 			);
